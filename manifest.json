@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "ONTRAPORT Menu",
+  "description": "This extension changes ONTRAPORT's side-nav into a menu via injecting into the DOM",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Click here!",
+    "default_popup": "popup.html"
+
+  },
+    "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+    "background": { "scripts": ["myscript.js"] }
+}
